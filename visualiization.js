@@ -213,12 +213,12 @@ function completeTransposition() {
     position: targetPosition
   };
   
-  // Check if insertion disrupts an exon
+  // Check if insertion disrupts an exon - improved logic
   let disruptsExon = false;
   for (let i = 0; i < bands.length; i++) {
     if (bands[i].type === "exon" && 
         bands[i].chromosome === targetChromosome &&
-        Math.abs(bands[i].position - targetPosition) < BAND_WIDTH * 2) {
+        Math.abs(bands[i].position - targetPosition) < BAND_WIDTH) {
       
       mutationX = START_X + targetPosition + BAND_WIDTH/2;
       mutationY = START_Y + targetChromosome * (CHROMOSOME_HEIGHT + CHROMOSOME_SPACING) + CHROMOSOME_HEIGHT/2;
