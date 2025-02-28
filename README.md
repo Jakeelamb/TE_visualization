@@ -10,7 +10,7 @@ A dynamic, interactive visualization of transposable elements in Drosophila chro
 
 ## Demo
 
-https://github.com/Jakeelamb/TE_visualization/assets/your-user-id/TE_visualization_demo.mp4
+![Drosophila Chromosome Visualization](TE_visualization_demo.gif)
 
 ## Installation
 
