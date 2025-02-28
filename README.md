@@ -10,14 +10,14 @@ A dynamic, interactive visualization of transposable elements in Drosophila chro
 
 ## Demo
 
-![Drosophila Chromosome Visualization](https://placehold.co/600x400/png?text=Drosophila+Visualization)
+![Drosophila Chromosome Visualization](/home/jake/Projects/TE_visualization/TE_visualization_demo.mp4)
 
 ## Installation
 
 1. Clone this repository:
 
 bash
-git clone https://github.com/yourusername/drosophila-te-visualization.git
+git clone https://github.com/Jakeelamb/TE_visualization.git
 cd drosophila-te-visualization
 
 2. Open `index.html` in a web browser or serve it using a local web server:
